@@ -14,9 +14,9 @@ probA = (profit - B - C) / (-1*A)
 probB = (profit - A - C) / (-1*B) 
 probC = (profit - A - B) / (-1*C) 
 
-payA = 50*(1 + probA)
-payB = 50*(1 + probB)
-payC = 50*(1 + probC)
+payA = bet_amount*(1 + probA)
+payB = bet_amount*(1 + probB)
+payC = bet_amount*(1 + probC)
 
 print(f'A: {Fraction(probA).limit_denominator()}')
 print(f'B: {Fraction(probB).limit_denominator()}')
