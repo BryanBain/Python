@@ -1,3 +1,10 @@
+"""
+Purpose: Calculate periodic payment amount and create a loan amortization table.
+Author: Bryan Bain
+Date: Aug 22, 2020
+File Name: loanAmortization.py
+"""
+
 principal = 240_000
 rate = 0.05
 comps_per_yr = 12
