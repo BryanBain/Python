@@ -1,14 +1,14 @@
 """
 Purpose: Solve differential equations using Euler's method
 Author: Bryan Bain
-Date: July 30, 2020
+Date: Feb. 6, 2022
 File Name: eulerMethod.py
 """
 
 import numpy as np
 import math
 
-def eulerMethod(x_0, y_0, h, x_n, func):
+def eulerMethod(x_0, y_0, h, x_n, func, *args, **kwargs):
 	"""
 	:param x_0: initial x value
 	:param y_0: initial y value
